@@ -11,3 +11,8 @@ pycolmap>=3.12.5
 kornia>=0.6.11
 gdown
 lightglue @ git+https://github.com/cvg/LightGlue
+fastapi
+uvicorn
+python-multipart
+slowapi
+pillow
