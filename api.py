@@ -27,7 +27,7 @@ limiter = Limiter(key_func=get_remote_address)
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
-API_KEY = "h5BfWP16uq6OfjZC"
+API_KEY = ""
 api_key_header = APIKeyHeader(name="Authorization", auto_error=False)
 
 async def verify_api_key(api_key: str = Security(api_key_header)):
